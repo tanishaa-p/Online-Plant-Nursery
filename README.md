@@ -6,12 +6,24 @@ https://github.com/tanishaa-p/Online-Plant-Nursery/assets/143655963/475e890e-d1d
 - 👋 Hi, I’m @tanishaa-p
 
 # Online-Plant-Nursery
--	My website is an online plant nursery, dedicated to plant enthusiasts, offering a wide variety of plants, flowers for occasions, gardening tools, and accessories for users to explore.
+-	My website is an online plant learning and selling platform, dedicated to plant enthusiasts, offering a wide variety of plants, flowers for occasions, gardening tools, and accessories for users to explore.
 
 -	Educational content providing users with tips and guidelines for caring for different types of plants.
 
 -	Built using HTML, CSS, JavaScript, and ReactJS.
 
--	The website also offers a Plant chatbot, which may ask the user the occasion/reason for buying plants, preferences in plant size, sunlight etc. and relevant choices to suggest them the right plant to go to buy. 
+-	A video navigating through different components of the website is attached above.
 
--	The website may also offer an info bot, that will give the user the functionality to search for a particular plant/flower that would return short information on it, and what that item symbolizes to be in use. 
+**CHARACTERISTICS OF WEBSITE:**
+-	The website has a dual screen mode, i.e dark or light, according to user preference. 
+- Homepage displaying multiple options for easy navigation.
+- Navigating to 'About' feature guides the user through the different steps to order their desired plant.
+- The 'Products' tab displaying multiple plants and prices.
+- The 'FAQs' tab displaying frequently asked questions.
+- The ' Contacts' tab displaying different trajectories to contact the owners.
+- The Subscriptions' tab displaying multiple subscription plans.
+- The Courses' tab displaying multiple educational courses With prices that the user can join.
+- The 'About' tab offers information on the multiple course instructors and their social handles.
+- Quizzes on the respective courses undefiaken to evaluate the user 's knowledge _
+- Dynamic review system and subscription window.
+  
