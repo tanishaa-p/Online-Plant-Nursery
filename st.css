@@ -1,0 +1,188 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Default background color */
+    color: #333; /* Default text color */
+}
+
+/* Light theme */
+body.light-theme {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Dark theme */
+body.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Downloads/bgg.jpg');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    color: violet; /* Default text color */
+}
+
+
+
+header {
+    background: linear-gradient(to right, #4CAF50, #2E8B57);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Add box shadow for depth */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Card container */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center cards horizontally */
+}
+
+/* Card styles */
+.card {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+    margin: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    width: 300px;
+    animation: fadeIn 0.5s ease-out; /* Fade-in animation */
+}
+
+.card:hover {
+    transform: translateY(-5px) scale(1.05); /* Scale and lift effect on hover */
+}
+
+/* Image styles */
+.card img {
+    border-radius: 20px 20px 0 0; /* Rounded corners only at the top */
+    width: 100%;
+    transition: transform 0.3s ease-in-out; /* Add smooth transition for image hover */
+}
+
+.card:hover img {
+    transform: scale(1.1); /* Scale up image on hover */
+}
+
+/* Card content */
+.card-content {
+    padding: 20px;
+}
+
+/* Card title */
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Card description */
+.card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Search input */
+#search-section {
+    text-align: center;
+}
+
+#search-input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    max-width: 100%;
+}
+
+/* Light theme specific styles */
+body.light-theme header {
+    background: linear-gradient(to right, #4CAF50, #2E8B57);
+    color: white;
+}
+
+body.light-theme .card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark theme specific styles */
+body.dark-theme header {
+    background: linear-gradient(to right, #333333, #666666);
+    color: white;
+}
+
+body.dark-theme .card {
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.card {
+    animation: slideIn 0.5s ease-out, fadeIn 0.5s ease-out; /* Slide-in and fade-in animations */
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.card:hover {
+    animation: pulse 1s infinite; /* Pulsating effect on hover */
+}
