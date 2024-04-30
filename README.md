@@ -14,6 +14,8 @@ https://github.com/tanishaa-p/Online-Plant-Nursery/assets/143655963/475e890e-d1d
 
 -	A video navigating through different components of the website is attached above.
 
+-	Main file code is given under index.html
+
 **CHARACTERISTICS OF WEBSITE:**
 -	The website has a dual screen mode, i.e dark or light, according to user preference. 
 - Homepage displaying multiple options for easy navigation.
